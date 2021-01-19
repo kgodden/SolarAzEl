@@ -8,7 +8,7 @@ double altitude = 0;
  
 double Az = 0.0;
 double El = 0.0;
-SolarAzEl(time(NULL), lat, lon, 0, &amp;Az, &amp;El);
+SolarAzEl(time(NULL), lat, lon, 0, &Az, &El);
  
 printf("Azimuth: %f\n", Az);
 printf("Elevation: %f\n", El);
